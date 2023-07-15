@@ -1,0 +1,40 @@
+body{
+    font-family: 'Montserrat', sem serifa;
+    background: #000000;
+    color: #ffffff;
+}
+.cabecalho{ 
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    height: 300px;
+}
+.selecao{
+    display: flex;
+}
+.selecao .lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.img_personagem{
+    width: 123px;
+    height: 190px;
+    border-bottom: 2px solid #47f4ff;
+}
+.selecao .personagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+    background-color: darkslategray;
+}
+.selecao .personagens .titulo{
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    border-bottom: 2px solid #47f4ff;
+    width: 100%;
+    text-align: center;
+}
