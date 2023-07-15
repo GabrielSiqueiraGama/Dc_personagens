@@ -8,15 +8,20 @@ body{
     justify-content: center;
 }
 .logo{
-    height: 300px;
+    height: 200px;
+    margin-top: 15px;
 }
 .selecao{
     display: flex;
+    justify-content: center;
+    gap: 30px;
+    min-height: calc(100vh - 215px);
 }
 .selecao .lista{
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
+    justify-content: center;
 }
 .img_personagem{
     width: 123px;
@@ -28,8 +33,7 @@ body{
     flex-direction: column;
     align-items: center;
     max-width: 585px;
-    gap: 25px;
-    background-color: darkslategray;
+    gap: 30px;
 }
 .selecao .personagens .titulo{
     font-size: 20px;
@@ -37,4 +41,29 @@ body{
     border-bottom: 2px solid #47f4ff;
     width: 100%;
     text-align: center;
+}
+.lista .personagem.selecionado{
+    box-shadow: 0px 0px 24px 5px #0271f7;
+}
+.personagem_selecionado{
+    text-align: center;
+    max-height: 530px;
+}
+.personagem_selecionado .personagem_grande{
+    max-width: 430px;
+    max-height: 430px;
+}
+.personagem_selecionado .nome_personagem{
+    border-bottom: 2px solid #47f4ff;
+    text-transform: uppercase;
+}
+.personagem_selecionado .descricao{
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
+.arqueiro{
+    background-color: green;
 }
