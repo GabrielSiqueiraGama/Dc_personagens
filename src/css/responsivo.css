@@ -1,0 +1,24 @@
+@media (max-width: 1120px){
+    .selecao{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+    .personagem_selecionado{
+        margin-bottom: 115px;
+    }
+    .selecao .personagens{
+        margin-top: 37px;
+    }
+    .selecao .personagens .personagem img{
+        width: 100px;
+    }
+    .personagem_selecionado .personagem_grande{
+        width: 350px;
+    }
+    .personagem_selecionado .descricao{
+        width: 80%;
+        font-size: 16px;
+        margin: 20px auto;
+    }
+}

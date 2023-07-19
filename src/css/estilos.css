@@ -9,11 +9,11 @@ body::before{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 0.1;
+    opacity: 0.2;
     width: 100%;
     height: 100%;
     position: absolute;
-    z-index: -1;
+    z-index: -2;
 }
 .cabecalho{ 
     display: flex;
@@ -68,6 +68,9 @@ body::before{
 .personagem_selecionado .nome_personagem{
     border-bottom: 2px solid #47f4ff;
     text-transform: uppercase;
+}
+.descricao{
+    justify-content: center;
 }
 .personagem_selecionado .descricao{
     font-size: 16px;
